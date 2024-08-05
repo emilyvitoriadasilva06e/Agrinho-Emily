@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Crescimento de Porcos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monitoramento de Crescimento de Porcos</h1>
+        <div class="porco">
+            <div class="porco-images" id="porco-images">
+                <!-- As imagens dos porcos serão adicionadas dinamicamente pelo JavaScript -->
+            </div>
+            <div class="porco-dados">
+                <h2>Dados do Porco</h2>
+                <p><strong>Dia:</strong> <span id="dia-atual"></span></p>
+                <p><strong>Peso:</strong> <span id="peso-atual"></span></p>
+            </div>
+        </div>
+        <div class="botoes">
+            <button onclick="anteriorPorco()">Anterior</button>
+            <button onclick="proximoPorco()">Próximo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
